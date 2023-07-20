@@ -1,7 +1,12 @@
 import React from "react";
 
 function HelloReact() {
-    return <p>Hello world </p>
+    return (
+        <div>
+            <p>Hello World</p>
+            <p>this is the second paragraph</p>
+        </div>
+    )
 }
 
-export default HelloReact
+export default HelloReact;
